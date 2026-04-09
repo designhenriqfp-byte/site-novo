@@ -1,19 +1,39 @@
-function App() {
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+<<<<<<< HEAD
+=======
+import { Toaster } from "@/components/ui/toaster";
+import { TooltipProvider } from "@/components/ui/tooltip";
+>>>>>>> fd159b82f21ac7bd217f5e6aabbae44f0cfc860b
+import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
+
+const App = () => {
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        background: "#000",
-        color: "#fff",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontFamily: "Arial, sans-serif",
-      }}
-    >
-      <h1>Site funcionando 🚀</h1>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
+
+<<<<<<< HEAD
+export default App;
+=======
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </TooltipProvider>
+  </QueryClientProvider>
+);
 
 export default App;
+>>>>>>> fd159b82f21ac7bd217f5e6aabbae44f0cfc860b
