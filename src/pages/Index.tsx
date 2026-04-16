@@ -37,20 +37,20 @@ const Index = () => {
             <span className="text-primary text-sm font-semibold tracking-wide uppercase">Posicionamento para dentistas</span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black leading-[1.08] tracking-tight mb-6">
-            Seu Instagram está <span className="text-primary">afastando pacientes</span>… e você não percebe
+            Seu Posicionamento pode estar fazendo<span className="text-primary">você perder clientes</span>… e você não percebe
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground mb-4 max-w-xl mx-auto leading-relaxed">
-            Você pode ser um ótimo dentista, mas se o seu perfil não transmite isso, o paciente não confia.
+            Mesmo você sendo um bom advogado
           </p>
           <p className="text-muted-foreground mb-10 max-w-md mx-auto">
-            O problema não é o seu trabalho. É a forma como ele é percebido.
+            Se quem chega no seu perfil não sente confiança rápida, ele simplesmente escolhe outro.
           </p>
           <button
             onClick={scrollToForm}
             className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-primary text-primary-foreground font-bold text-lg transition-all duration-300 hover:brightness-110 active:scale-[0.98]"
             style={{ boxShadow: "var(--shadow-accent)" }}
           >
-            Solicitar análise do meu perfil
+            Solicitar análise do meu posicionamento
           </button>
         </div>
       </section>
