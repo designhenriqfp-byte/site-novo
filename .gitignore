@@ -1,0 +1,11 @@
+.next
+.vercel
+node_modules
+dev-server.log
+landing-page-premium
+landing-page-premium.zip
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env*
